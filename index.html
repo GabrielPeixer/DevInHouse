@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Todo App Dev In House</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+  <body>
+
+    <div class="container4"> <p><img src="images/dev1.png" alt="Dev In House" width=600 height=100></p></div>
+      
+    <div class="container">
+        <p>
+            BEM VINDO A LISTA DEV IN HOUSE
+          </p>
+      <p>
+        <label for="new-task">Adicionar Item</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Para Fazer</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Pagar Dentista</label><input type="text"><button class="edit">Edita</button><button class="delete">Deleta</button></li>
+        <li class="editMode"><input type="checkbox"><label>Lavar o Carro</label><input type="text" value="Lavar o carro"><button class="edit">Edita</button><button class="delete">Deleta</button></li>
+        
+      </ul>
+      
+      <h3>Completo</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Ir no médico</label><input type="text"><button class="edit">Edita</button><button class="delete">Deleta</button></li>
+      </ul>
+    </div>
+    <br>
+    <br>
+    
+    <div id="footer">
+        <p>Copyright Gabriel Peixer</p>
+    </div>
+    
+
+  </body>
+</html>
